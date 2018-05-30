@@ -29,3 +29,11 @@ src folder - source code
 django project made of a series of app
 src/profiles_project the root directory
 another directory will the same name as the project
+
+to see which python packages are already intalled
+`pip freeze`
+`pip freeze > requirements.txt`
+
+
+test with djnago development server
+http://127.0.0.1:1234/
