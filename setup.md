@@ -12,3 +12,20 @@ to reconnect
 `vagrant ssh`
 
 `ls -a` to view all files including invisible ones
+
+set up virtual environment:
+`mkvirtualenv profiles_api --python=python3`
+
+close env
+`deactivate`
+open env
+`workon profiles_api`
+
+install packages using python package manager
+`pip install Django==1.11`
+`pip install djangorestframework==3.6.2`
+
+src folder - source code
+django project made of a series of app
+src/profiles_project the root directory
+another directory will the same name as the project
